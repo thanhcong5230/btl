@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+    <TextView
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/tv_thuchien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/cofe"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bean Coffee Shop"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+
+    />
+
+    <TableLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TableRow
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnthucdo"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ffc107"
+                android:text="Thực Đơn"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                />
+            <Button
+                android:id="@+id/btnhoadon"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ffc107"
+                android:text="Hóa Đơn"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                />
+        </TableRow>
+    </TableLayout>
+
+
+
+</LinearLayout>
